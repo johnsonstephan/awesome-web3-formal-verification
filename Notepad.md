@@ -1,16 +1,5 @@
 ### Definition
 
-### Challenges
-
-Although useful for various analyses, exhaustive exploration of all possible execution paths performed by symbolic execution comes with certain performance and scalability constraints.
-
-The challenges include:
-
-- Handling state space explosion (the number of states grows exponentially in the number of system components, and exploring smart contracts with, e.g., loops and recursive calls might be infeasible within reasonable resource constraints)
-- Constraint solving (certain types of constraints pose a difficulty to SMT solvers—these include non-linear arithmetic expressions which are common in DeFi smart contracts, e.g., the Uniswap invariant)=
-- Modeling memory (which can be fully symbolic, partially symbolic, or concretized)
-- Interaction with the environment (e.g., calling other smart contracts and accounting for possible side effects)
-
 ### Documentation
 
 [SMTChecker and Formal Verification](https://docs.soliditylang.org/en/latest/smtchecker.html)

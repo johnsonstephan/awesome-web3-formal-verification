@@ -8,13 +8,25 @@ A curated list of awesome formal verification resources for Web3.
   - [📂 Table of Contents](#-table-of-contents)
   - [🤔 Introduction](#-introduction)
     - [Comparison to Other Methods](#comparison-to-other-methods)
+    - [Challenges](#challenges)
 
-## 🤔 Introduction
+## 🤔 Introduction to Formal Verification
 
-Formal verification is a method of mathematically proving that a computer program -- for example, a smart contract -- functions as intended. It involves translating the code of the contract into a formal representation (such as mathematical models and logic) and then using automated tools (like theorem provers or model checkers) to verify that the specifications and properties of the contract hold true. Formal verification detects flaws in code and logic, ensuring the contract's correctness, reducing vulnerabilities, and preventing potential financial losses.
+Formal verification is a method of mathematically proving that a computer program - for example, a smart contract - functions as intended. It involves translating the code of the contract into a formal representation (such as mathematical models and logic) and then using automated tools (like theorem provers or model checkers) to verify that the specifications and properties of the contract hold true. Formal verification detects flaws in code and logic, ensuring the contract's correctness, reducing vulnerabilities, and preventing potential financial losses.
 
 ### Comparison to Other Methods
 
-- **Symbolic Execution**: Symbolic execution is a technique used within formal verification. It involves running a program with symbolic values instead of concrete inputs. It explores as many program paths as possible, checking for errors. Compared to formal verification, it does not provide a mathematical proof of correctness. It's focus is on finding bugs rather than proving their absence. It is a less comprehensive method in comparison to formal verification (but more practical in exploring complex code paths).
+- **Symbolic Execution**: Symbolic execution is a technique used within formal verification. It involves running a program with symbolic values instead of concrete inputs. It explores as many program paths as possible, checking for errors. Compared to formal verification, it does not provide a mathematical proof of correctness. Its focus is on finding bugs rather than proving their absence. It is a less comprehensive method in comparison to formal verification (but more practical in exploring complex code paths).
 - **Unit Testing**: Unit testing involves testing individual components (units) of a program to ensure they work as expected. This method is less comprehensive than formal verification but more practical and easier to implement. It's excellent for catching specific, localized bugs but doesn't address system-wide correctness. Unit testing is critical early in the development process to ensure each component functions correctly.
 - **Fuzz Testing**: Fuzz testing involves inputting random, unexpected, or invalid data (fuzz) into the system to test its robustness. It's an excellent method for finding bugs, but it's less structured and can't guarantee comprehensive coverage or correctness like formal verification. Fuzz testing is most beneficial when you want to test the resilience of a system against malformed or malicious inputs.
+
+### Challenges of Formal Verification
+
+Formal verification, despite its robust approach to ensuring the correctness of computer programs like smart contracts, presents challenges and constraints including:
+
+- **Limited Scope**: While formal verification is powerful in proving the correctness of code against its specifications, it's only as good as the specifications themselves. If the specifications are incomplete, incorrect, or ambiguous, the verification process might not identify all potential issues. Moreover, it doesn't typically account for real-world scenarios or user interactions that lie outside the specified parameters.
+- **Difficulty in Handling External Interactions**: Smart contracts often interact with external systems (like external smart contracts) and data sources. Formal verification can struggle to account for the unpredictable nature of these external interactions, potentially overlooking vulnerabilities that arise from such dynamics.
+- **Handling State Space Explosion**: Handling state space growth can be difficult as the number of states grows when exploring contracts with features like loops and recursive calls. When the state space becomes too large, exploring all possible states and transitions can become infeasible.
+- **Constraint Solving Complexities**: Particularly in Decentralized Finance (DeFi), contracts involve complex mathematical expressions, such as non-linear arithmetic, which are difficult for common solvers to handle. These complexities can impede the ability to fully verify correctness.
+
+Despite these challenges, the ability to mathematically prove the correctness of smart contracts can significantly reduce the risk of bugs and vulnerabilities, leading to safer and more reliable protocols. It is important to note that while formal verification can greatly enhance the security of Web3 solutions, it is not a silver bullet; it should be used in conjunction with other testing methods, such as unit testing, fuzz testing, and manual code reviews, to ensure more comprehensive security.
