@@ -1,13 +1,7 @@
-### Definition
-
-### Documentation
-
-[SMTChecker and Formal Verification](https://docs.soliditylang.org/en/latest/smtchecker.html)
-
 ### Program Verifiers
 
 - [Certora](https://docs.certora.com/en/latest/). is a formal verification tool for smart contracts that focuses on automated verification and supports bounded model checking, similar to Halmos. To use Certora, developers must learn their new language, CVL, in order to write specifications. This language allows for the concise description of many critical properties through contract invariants, a feature that Halmos currently does not support. Despite being a closed-source, proprietary tool, Certora provides robust formal verification tooling, with ongoing development and good user support.
-- [Solidity SMTChecker](https://github.com/ethereum/solidity) Solidity’s SMTChecker is a built-in model checker based on SMT (Satisfiability Modulo Theories) and Horn solving. It confirms if a contract’s source code matches specifications during compilation and statically checks for violations of safety properties.
+- [Solidity SMTChecker](https://github.com/ethereum/solidity) Solidity’s SMTChecker is a built-in model checker based on SMT (Satisfiability Modulo Theories) and Horn solving. It confirms if a contract’s source code matches specifications during compilation and statically checks for violations of safety properties.+documentation
 - [KEVM](https://github.com/runtimeverification/evm-semantics) KEVM is a formal semantics of the Ethereum Virtual Machine (EVM) written in the K framework. KEVM is executable and can prove certain property-related assertions using reachability logic
 - [EthBMC (A Bounded Model Checker for Smart Contracts)](https://github.com/RUB-SysSec/EthBMC) Last udpated on Dec 30, 2022. A bounded model checker for EVM bytecode based on symbolic execution developed in Ruhr-University Bochum. The only academic tool that made it into our list, EthBMC has been proposed in an academic paper presented at Usenix Security, 2020. A distinctive feature of EthBMC is its support of concrete validation of the identified counterexamples using geth. EthBMC is implemented in Rust and supports several SMT solvers (Z3, Yices2, Boolector).
 

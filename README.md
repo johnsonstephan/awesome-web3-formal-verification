@@ -6,11 +6,14 @@ A curated list of awesome formal verification resources for Web3.
 
 - [🔐 Awesome Web3 Formal Verification](#-awesome-web3-formal-verification)
   - [📂 Table of Contents](#-table-of-contents)
-  - [🤔 Introduction](#-introduction)
+  - [🤔 Introduction to Formal Verification](#-introduction-to-formal-verification)
+    - [Definition](#definition)
     - [Comparison to Other Methods](#comparison-to-other-methods)
-    - [Challenges](#challenges)
+    - [Challenges of Formal Verification](#challenges-of-formal-verification)
 
 ## 🤔 Introduction to Formal Verification
+
+### Definition
 
 Formal verification is a method of mathematically proving that a computer program - for example, a smart contract - functions as intended. It involves translating the code of the contract into a formal representation (such as mathematical models and logic) and then using automated tools (like theorem provers or model checkers) to verify that the specifications and properties of the contract hold true. Formal verification detects flaws in code and logic, ensuring the contract's correctness, reducing vulnerabilities, and preventing potential financial losses.
 
