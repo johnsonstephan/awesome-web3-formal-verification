@@ -10,6 +10,7 @@ A curated list of awesome formal verification resources for Web3.
     - [Definition](#definition)
     - [Comparison to Other Methods](#comparison-to-other-methods)
     - [Challenges of Formal Verification](#challenges-of-formal-verification)
+  - [🔧 Tools: Program Verifiers, Symbolic Execution Tools, and Others](#-tools-program-verifiers-symbolic-execution-tools-and-others)
 
 ## 🤔 Introduction to Formal Verification
 
@@ -33,3 +34,18 @@ Formal verification, despite its robust approach to ensuring the correctness of 
 - **Constraint Solving Complexities**: Particularly in Decentralized Finance (DeFi), contracts involve complex mathematical expressions, such as non-linear arithmetic, which are difficult for common solvers to handle. These complexities can impede the ability to fully verify correctness.
 
 Despite these challenges, the ability to mathematically prove the correctness of smart contracts can significantly reduce the risk of bugs and vulnerabilities, leading to safer and more reliable protocols. It is important to note that while formal verification can greatly enhance the security of Web3 solutions, it is not a silver bullet; it should be used in conjunction with other testing methods, such as unit testing, fuzz testing, and manual code reviews, to ensure more comprehensive security.
+
+## 🔧 Tools: Program Verifiers, Symbolic Execution Tools, and Others
+
+- **Certora**: Certora is a formal verification tool which utilizes automated verification and supports bounded model checking. It uses the CVL language for specifying contracts, allowing for detailed description of critical properties. Certora provides a reliable and robust toolset, continuously evolving with strong community support.
+  - [GitHub](https://github.com/Certora)
+  - [Official Documentation](https://docs.certora.com/en/latest/)
+- **Solidity SMTChecker**: Solidity’s SMTChecker is a built-in model checker based on SMT (Satisfiability Modulo Theories) and Horn solving. It confirms if a contract’s source code matches specifications during compilation and statically checks for violations of safety properties.
+  - [Solidity GitHub](https://github.com/ethereum/solidity)
+  - [Official Documentation](https://docs.soliditylang.org/en/latest/smtchecker.html)
+- **KEVM**: KEVM is a formal semantics of the Ethereum Virtual Machine (EVM) written in the K framework. It is executable and can prove property-related assertions using reachability logic.
+  - [GitHub](https://github.com/runtimeverification/evm-semantics)
+  - [Official Documentation](https://docs.runtimeverification.com/kevm/overview/kevm-semantics-of-evm-in-k#documentation-support)
+- **EthBMC**: EthBMC is a bounded model checker for EVM bytecode based on symbolic execution. It is implemented in Rust and supports several SMT solvers (Z3, Yices2, Boolector).
+  - [GitHub](https://github.com/RUB-SysSec/EthBMC)
+  - [Academic Paper](https://www.usenix.org/system/files/sec20fall_frank_prepub_0.pdf)
