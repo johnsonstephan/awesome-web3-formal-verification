@@ -61,3 +61,5 @@ Despite these challenges, the ability to mathematically prove the correctness of
 - **Kontrol**: Kontrol is a tool by Runtime Verification that combines KEVM and Foundry. It simplifies the verification process by eliminating the need to learn a new language or tool, making it accessible even for developers who aren't verification engineers.
   - [GitHub](https://github.com/runtimeverification/kontrol)
   - [Documentation](https://docs.runtimeverification.com/kontrol/overview/readme)
+- **ERCx**: ERCx is a property testing tool for ERC tokens developed by Runtime Verification. It generates detailed reports about its analysis of the token, providing insights into the token's operation.
+  - [Tool](https://ercx.runtimeverification.com/)

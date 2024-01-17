@@ -2,15 +2,13 @@
 
 ### (Symbolic Execution Based Tools
 
-- **ERCx**: ERCx is a property testing tool for ERC tokens developed by Runtime Verification. It generates detailed reports about its analysis of the token, providing insights into the token's operation. [ERCx](https://ercx.runtimeverification.com/)
 - **Manticore**: Manticore is a symbolic execution tool developed by Trail of Bits. Though it's no longer maintained by Trail of Bits, it continues to serve as a valuable tool for vulnerability detection and automatic generation of test cases. [Manticore GitHub](https://github.com/trailofbits/manticore)
 - **Z3**: Z3 is an efficient SMT solver developed by Microsoft. It's used in various fields, including formal verification of software and hardware. [Z3 GitHub](https://github.com/Z3Prover/z3)
 - **Isabelle**: Isabelle/HOL is a proof assistant developed by Microsoft Research. It allows mathematical formulas to be expressed in a formal language and provides tools for proving those formulas. [Isabelle GitHub](https://github.com/isabelle-prover)
 - **Coq**: Coq is an interactive theorem prover developed by INRIA. It allows you to define programs using theorems and interactively generate machine-checked proofs of correctness. [Coq GitHub](https://github.com/coq/coq)
 
-- [Halmos (a16z's symbolic testing tool for EVM smart contracts)](https://github.com/a16z/halmos)
-- [Kontrol (Runtime Verification's tool)](https://docs.runtimeverification.com/kontrol/overview/readme)​ combines KEVM and to grant developers the ability to perform without learning a new language or tool. This is especially useful for those who are not verification engineers. Additionally, developers can leverage Foundry test suites they have already developed and use symbolic execution to increase the level of confidence.
-  the newer Ethereum Foundation fork for our experiments. hevm is implemented in Haskell and supports Z3 and cvc5 as solvers.
+\
+
 - [ERCx (Runtime Verification's Property testing tool for ERC tokens)](https://ercx.runtimeverification.com/) ERCx generates structured and detailed reports about its analysis of the token
 - [Manticore (Trail of Bits' Symbolic execution tool)](https://github.com/trailofbits/manticore). This project is no longer internally developed and maintained as of Jul 11, 2023. A symbolic execution tool that is developed by Trail of Bits. Manticore is implemented in Python and supports several SMT solvers (Z3, Yices2, Boolector, cvc4). Manticore has several interfaces: it can be used as a CLI tool, through its Python API, or using manticore-verifier—a property-based symbolic execution tool. Besides vulnerability detection, Manticore automatically generates test cases corresponding to the execution paths identified through symbolic execution
 
