@@ -39,19 +39,19 @@ Despite these challenges, the ability to mathematically prove the correctness of
 
 - **Certora**: Certora is a formal verification tool which utilizes automated verification and supports bounded model checking. It uses the CVL language for specifying contracts, allowing for detailed description of critical properties. Certora provides a reliable and robust toolset, continuously evolving with strong community support.
   - [GitHub](https://github.com/Certora)
-  - [Official Documentation](https://docs.certora.com/en/latest/)
+  - [Documentation](https://docs.certora.com/en/latest/)
 - **Solidity SMTChecker**: Solidity’s SMTChecker is a built-in model checker based on SMT (Satisfiability Modulo Theories) and Horn solving. It confirms if a contract’s source code matches specifications during compilation and statically checks for violations of safety properties.
   - [Solidity GitHub](https://github.com/ethereum/solidity)
-  - [Official Documentation](https://docs.soliditylang.org/en/latest/smtchecker.html)
+  - [Documentation](https://docs.soliditylang.org/en/latest/smtchecker.html)
 - **KEVM**: KEVM is a formal semantics of the Ethereum Virtual Machine (EVM) written in the K framework. It is executable and can prove property-related assertions using reachability logic.
   - [GitHub](https://github.com/runtimeverification/evm-semantics)
-  - [Official Documentation](https://docs.runtimeverification.com/kevm/overview/kevm-semantics-of-evm-in-k#documentation-support)
+  - [Documentation](https://docs.runtimeverification.com/kevm/overview/kevm-semantics-of-evm-in-k#documentation-support)
 - **EthBMC**: EthBMC is a bounded model checker for EVM bytecode based on symbolic execution. It is implemented in Rust and supports several SMT solvers (Z3, Yices2, Boolector).
   - [GitHub](https://github.com/RUB-SysSec/EthBMC)
   - [Academic Paper](https://www.usenix.org/system/files/sec20fall_frank_prepub_0.pdf)
 - **hevm**: hevm is a symbolic evaluator for the Ethereum Virtual Machine (EVM). It uses symbolic execution to evaluate existing tests and detect assertion violations, offering users flexibility in choosing how to use it.
   - [GitHub](https://github.com/ethereum/hevm)
-  - [Official Documentation](https://hevm.dev)
+  - [Documentation](https://hevm.dev)
 - **Mythril**: Mythril is a tool developed by ConsenSys for analyzing EVM bytecode. It uses symbolic execution to detect a wide range of security vulnerabilities in Solidity smart contracts.
   - [GitHub](https://github.com/ConsenSys/mythril)
-  - [Official Documentation](https://mythril-classic.readthedocs.io/en/latest/)
+  - [Documentation](https://mythril-classic.readthedocs.io/en/latest/)
