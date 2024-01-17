@@ -2,18 +2,6 @@
 
 ### (Symbolic Execution Based Tools
 
-- **Isabelle**: Isabelle/HOL is a proof assistant developed by Microsoft Research. It allows mathematical formulas to be expressed in a formal language and provides tools for proving those formulas. [Isabelle GitHub](https://github.com/isabelle-prover)
-- **Coq**: Coq is an interactive theorem prover developed by INRIA. It allows you to define programs using theorems and interactively generate machine-checked proofs of correctness. [Coq GitHub](https://github.com/coq/coq)
-
-- [ERCx (Runtime Verification's Property testing tool for ERC tokens)](https://ercx.runtimeverification.com/) ERCx generates structured and detailed reports about its analysis of the token
-- [Manticore (Trail of Bits' Symbolic execution tool)](https://github.com/trailofbits/manticore). This project is no longer internally developed and maintained as of Jul 11, 2023. A symbolic execution tool that is developed by Trail of Bits. Manticore is implemented in Python and supports several SMT solvers (Z3, Yices2, Boolector, cvc4). Manticore has several interfaces: it can be used as a CLI tool, through its Python API, or using manticore-verifier—a property-based symbolic execution tool. Besides vulnerability detection, Manticore automatically generates test cases corresponding to the execution paths identified through symbolic execution
-
-### Other Tools
-
-- [Z3 (Microsoft's efficient SMT solver)](https://github.com/Z3Prover/z3)
-- [Isabelle](https://github.com/isabelle-prover) Isabelle/HOL is a proof assistant that allows mathematical formulas to be expressed in a formal language and provides tools for proving those formulas. The main application is the formalization of mathematical proofs and in particular formal verification, which includes proving the correctness of computer hardware or software and proving properties of computer languages and protocols.
-- [Coq](https://github.com/coq/coq) Coq is an interactive theorem prover that lets you define programs using theorems and interactively generate machine-checked proofs of correctness
-
 ### Specification Languages for Creating Formal Specifications
 
 - [Act](https://github.com/ethereum/act): Act allows specification of storage updates, pre/post conditions and contract invariants. Its tool suite also has proof backends able to prove many properties via Coq, SMT solvers, or hevm

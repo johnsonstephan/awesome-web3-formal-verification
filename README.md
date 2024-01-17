@@ -69,3 +69,9 @@ Despite these challenges, the ability to mathematically prove the correctness of
 - **Z3**: Z3 is an efficient SMT solver developed by Microsoft. It's used in various fields, including formal verification of software.
   - [GitHub](https://github.com/Z3Prover/z3)
   - [Guide](https://microsoft.github.io/z3guide/)
+- **Isabelle**: Isabelle/HOL is a proof assistant developed by Microsoft Research. It allows mathematical formulas to be expressed in a formal language and provides tools for proving those formulas.
+  - [GitHub](https://github.com/isabelle-prover)
+  - [Documentation](https://isabelle.in.tum.de/documentation.html)
+- **Coq**: Coq is an interactive theorem prover developed by INRIA. It allows you to define programs using theorems and interactively generate machine-checked proofs of correctness.
+  - [GitHub](https://github.com/coq/coq)
+  - [Documentation](https://coq.inria.fr/doc/V8.18.0/refman/coq)
