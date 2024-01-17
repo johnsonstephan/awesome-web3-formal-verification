@@ -2,7 +2,6 @@
 
 ### (Symbolic Execution Based Tools
 
-- **Manticore**: Manticore is a symbolic execution tool developed by Trail of Bits. Though it's no longer maintained by Trail of Bits, it continues to serve as a valuable tool for vulnerability detection and automatic generation of test cases. [Manticore GitHub](https://github.com/trailofbits/manticore)
 - **Z3**: Z3 is an efficient SMT solver developed by Microsoft. It's used in various fields, including formal verification of software and hardware. [Z3 GitHub](https://github.com/Z3Prover/z3)
 - **Isabelle**: Isabelle/HOL is a proof assistant developed by Microsoft Research. It allows mathematical formulas to be expressed in a formal language and provides tools for proving those formulas. [Isabelle GitHub](https://github.com/isabelle-prover)
 - **Coq**: Coq is an interactive theorem prover developed by INRIA. It allows you to define programs using theorems and interactively generate machine-checked proofs of correctness. [Coq GitHub](https://github.com/coq/coq)

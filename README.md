@@ -63,3 +63,6 @@ Despite these challenges, the ability to mathematically prove the correctness of
   - [Documentation](https://docs.runtimeverification.com/kontrol/overview/readme)
 - **ERCx**: ERCx is a property testing tool for ERC tokens developed by Runtime Verification. It generates detailed reports about its analysis of the token, providing insights into the token's operation.
   - [Tool](https://ercx.runtimeverification.com/)
+- **Manticore**: Manticore is a symbolic execution tool developed by Trail of Bits. Though it's no longer maintained by Trail of Bits, it continues to serve as a valuable tool for vulnerability detection and automatic generation of test cases.
+  - [GitHub](https://github.com/trailofbits/manticore)
+  - [Documentation](https://manticore.readthedocs.io/en/latest/index.html)
