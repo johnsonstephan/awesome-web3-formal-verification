@@ -11,8 +11,8 @@ A curated list of awesome formal verification resources for Web3.
     - [Comparison to Other Methods](#comparison-to-other-methods)
     - [Challenges of Formal Verification](#challenges-of-formal-verification)
   - [🔧 Tools: Program Verifiers, Symbolic Execution Tools, and Others](#-tools-program-verifiers-symbolic-execution-tools-and-others)
-    - [🎤 Specification Languages for Creating Formal Specifications](#-specification-languages-for-creating-formal-specifications)
-    - [👨🏾‍💻 Exercises, Tutorials, and Examples](#-exercises-tutorials-and-examples)
+  - [🎤 Specification Languages for Creating Formal Specifications](#-specification-languages-for-creating-formal-specifications)
+  - [👨🏾‍💻 Exercises, Tutorials, and Examples](#-exercises-tutorials-and-examples)
 
 ## 🤔 Introduction to Formal Verification
 
@@ -78,7 +78,7 @@ Despite these challenges, the ability to mathematically prove the correctness of
   - [GitHub](https://github.com/coq/coq)
   - [Documentation](https://coq.inria.fr/doc/master/refman/)
 
-### 🎤 Specification Languages for Creating Formal Specifications
+## 🎤 Specification Languages for Creating Formal Specifications
 
 - **Act**: Act is a tool that enables specification of storage updates, pre/post conditions, and contract invariants. It includes proof backends that can validate many properties using Coq, SMT solvers, or hevm.
   - [GitHub](https://github.com/ethereum/act)
@@ -92,7 +92,7 @@ Despite these challenges, the ability to mathematically prove the correctness of
   - [GitHub](https://github.com/dafny-lang/dafny)
   - [Documentation](http://dafny.org/dafny/)
 
-### 👨🏾‍💻 Exercises, Tutorials, and Examples
+## 👨🏾‍💻 Exercises, Tutorials, and Examples
 
 - **Examples for Certora, Halmos, and Kontrol from Cyfrin**: This GitHub repository provides examples demonstrating how to use Certora, Halmos, and Kontrol for formal verification of smart contracts. It's a great resource for understanding how to apply these tools in practice. [GitHub](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/test/invariant-break/formal-verification)
 - **Symbolic Execution with Manticore, Mythril, hevm, and EthBMC**: This document provides a comprehensive overview of how to use symbolic execution tools. It covers how these tools can be used to verify properties of smart contracts. [Symbolic Execution Tutorial](https://hackmd.io/@SaferMaker/EVM-Sym-Exec#What-can-they-do)
