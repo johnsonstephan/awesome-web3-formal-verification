@@ -55,3 +55,6 @@ Despite these challenges, the ability to mathematically prove the correctness of
 - **Mythril**: Mythril is a tool developed by ConsenSys for analyzing EVM bytecode. It uses symbolic execution to detect a wide range of security vulnerabilities in Solidity smart contracts.
   - [GitHub](https://github.com/ConsenSys/mythril)
   - [Documentation](https://mythril-classic.readthedocs.io/en/latest/)
+- **Halmos**: Halmos is a symbolic testing tool for EVM smart contracts developed by a16z. It uses symbolic execution to identify assertion violations.
+  - [GitHub](https://github.com/a16z/halmos)
+  - [Getting Started](https://github.com/a16z/halmos/blob/main/docs/getting-started.md)
