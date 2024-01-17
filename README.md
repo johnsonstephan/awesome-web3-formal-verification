@@ -66,3 +66,6 @@ Despite these challenges, the ability to mathematically prove the correctness of
 - **Manticore**: Manticore is a symbolic execution tool developed by Trail of Bits. Though it's no longer maintained by Trail of Bits, it continues to serve as a valuable tool for vulnerability detection and automatic generation of test cases.
   - [GitHub](https://github.com/trailofbits/manticore)
   - [Documentation](https://manticore.readthedocs.io/en/latest/index.html)
+- **Z3**: Z3 is an efficient SMT solver developed by Microsoft. It's used in various fields, including formal verification of software.
+  - [GitHub](https://github.com/Z3Prover/z3)
+  - [Guide](https://microsoft.github.io/z3guide/)
