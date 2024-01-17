@@ -1,10 +1,3 @@
-### Specification Languages for Creating Formal Specifications
-
-- [Act](https://github.com/ethereum/act): Act allows specification of storage updates, pre/post conditions and contract invariants. Its tool suite also has proof backends able to prove many properties via Coq, SMT solvers, or hevm
-- [Certora Verification Language (CVL)](https://docs.certora.com/en/latest/docs/cvl/index.html) Used by the Certora verification tool to write properties about analyzed contracts.
-- [Scribble](https://github.com/ConsenSys/Scribble): Scribble transforms code annotations in the Scribble specification language into concrete assertions that check the specification
-- [Dafny](https://github.com/dafny-lang/dafny): Dafny is a verification-ready programming language that relies on high-level annotations to reason about and prove correctness of code
-
 ### Real-World Case Studies
 
 **Cetora**

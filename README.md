@@ -11,6 +11,7 @@ A curated list of awesome formal verification resources for Web3.
     - [Comparison to Other Methods](#comparison-to-other-methods)
     - [Challenges of Formal Verification](#challenges-of-formal-verification)
   - [🔧 Tools: Program Verifiers, Symbolic Execution Tools, and Others](#-tools-program-verifiers-symbolic-execution-tools-and-others)
+    - [🎤 Specification Languages for Creating Formal Specifications](#-specification-languages-for-creating-formal-specifications)
 
 ## 🤔 Introduction to Formal Verification
 
@@ -75,3 +76,17 @@ Despite these challenges, the ability to mathematically prove the correctness of
 - **Coq**: Coq is an interactive theorem prover developed by INRIA. It allows you to define programs using theorems and interactively generate machine-checked proofs of correctness.
   - [GitHub](https://github.com/coq/coq)
   - [Documentation](https://coq.inria.fr/doc/master/refman/)
+
+### 🎤 Specification Languages for Creating Formal Specifications
+
+- **Act**: Act is a tool that enables specification of storage updates, pre/post conditions, and contract invariants. It includes proof backends that can validate many properties using Coq, SMT solvers, or hevm.
+  - [GitHub](https://github.com/ethereum/act)
+  - [Documentation](https://ethereum.github.io/act/)
+- **Certora Verification Language (CVL)**: CVL is a language used by Certora, a tool for verifying smart contracts. It provides a structured way to express the properties of smart contracts, enabling formal verification of their correctness.
+  - [Documentation](https://docs.certora.com/en/latest/docs/cvl/index.html)
+- **Scribble**: Scribble is a tool that transforms code annotations in the Scribble specification language into concrete assertions that check the specification.
+  - [GitHub](https://github.com/ConsenSys/Scribble)
+  - [Documentation](https://docs.scribble.codes)
+- **Dafny**: Dafny is a programming language designed to facilitate the construction of correct and efficient software. It uses high-level annotations to reason about and prove the correctness of code.
+  - [GitHub](https://github.com/dafny-lang/dafny)
+  - [Documentation](http://dafny.org/dafny/)
