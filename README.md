@@ -98,9 +98,9 @@ Despite these challenges, the ability to mathematically prove the correctness of
 
 - **Examples for Certora, Halmos, and Kontrol from Cyfrin**: This GitHub repository provides examples demonstrating how to use Certora, Halmos, and Kontrol for formal verification of smart contracts. It's a great resource for understanding how to apply these tools in practice.
   - [Repository with Example Test Suites](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/test/invariant-break/formal-verification)
-- **Symbolic Execution with Manticore, Mythril, hevm, and EthBMC**: This document provides a comprehensive overview of how to use symbolic execution tools. It covers how these tools can be used to verify properties of smart contracts.
+- **Symbolic Execution Tutorial with Manticore, Mythril, hevm, and EthBMC**: This document provides a comprehensive overview of how to use symbolic execution tools. It covers how these tools can be used to verify properties of smart contracts.
   - [Symbolic Execution Tutorial](https://hackmd.io/@SaferMaker/EVM-Sym-Exec#What-can-they-do)
-- **Demo: Formal verification of ERC721A with Halmos**: This article shows how to use Halmos to symbolically test and formally verify ERC721A, a highly gas-optimized implementation of the ERC721 standard. It's a practical demonstration of how to use Halmos for formal verification.
+- **Halmos Demo, Formal verification of ERC721A**: This article shows how to use Halmos to symbolically test and formally verify ERC721A, a highly gas-optimized implementation of the ERC721 standard. It's a practical demonstration of how to use Halmos for formal verification.
   - [Halmos Formal Verification Demo](https://a16zcrypto.com/posts/article/symbolic-testing-with-halmos-leveraging-existing-tests-for-formal-verification/#section--6)
-- **SMTChecker Tutorial, from Solidity Documentation**: This tutorial covers examples of using SMTChecker - a built-in model checker in Solidity - for overflow, assert, state properties, and external calls + reentrancy.
+- **SMTChecker Tutorial, from Solidity Documentation**: This tutorial covers examples of using SMTChecker for overflow, assert, state properties, external calls, and reentrancy.
   - [SMTChecker Tutorial](https://docs.soliditylang.org/en/latest/smtchecker.html#tutorial)
