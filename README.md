@@ -49,3 +49,6 @@ Despite these challenges, the ability to mathematically prove the correctness of
 - **EthBMC**: EthBMC is a bounded model checker for EVM bytecode based on symbolic execution. It is implemented in Rust and supports several SMT solvers (Z3, Yices2, Boolector).
   - [GitHub](https://github.com/RUB-SysSec/EthBMC)
   - [Academic Paper](https://www.usenix.org/system/files/sec20fall_frank_prepub_0.pdf)
+- **hevm**: hevm is a symbolic evaluator for the Ethereum Virtual Machine (EVM). It uses symbolic execution to evaluate existing tests and detect assertion violations, offering users flexibility in choosing how to use it.
+  - [GitHub](https://github.com/ethereum/hevm)
+  - [Official Documentation](https://hevm.dev)
