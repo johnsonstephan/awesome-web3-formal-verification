@@ -20,6 +20,8 @@ A curated list of awesome formal verification resources for Web3.
 
 Formal verification is a method of mathematically proving that a computer program - for example, a smart contract - functions as intended. It involves translating the code of the contract into a formal representation (such as mathematical models and logic) and then using automated tools (like theorem provers or model checkers) to verify that the specifications and properties of the contract hold true. Formal verification detects flaws in code and logic, ensuring the contract's correctness, reducing vulnerabilities, and preventing potential financial losses.
 
+<center><img src="https://www.azquotes.com/picture-quotes/quote-the-job-of-formal-methods-is-to-elucidate-the-assumptions-upon-which-formal-correctness-tony-hoare-72-10-09.jpg" alt="Terminal Output, Pretty Storage Slots" width="55%" height="auto"></center>
+
 ### Comparison to Other Methods
 
 - **Symbolic Execution**: Symbolic execution is a technique used within formal verification. It involves running a program with symbolic values instead of concrete inputs. It explores as many program paths as possible, checking for errors. Compared to formal verification, it does not provide a mathematical proof of correctness. Its focus is on finding bugs rather than proving their absence. It is a less comprehensive method in comparison to formal verification (but more practical in exploring complex code paths).
