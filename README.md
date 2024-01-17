@@ -52,3 +52,6 @@ Despite these challenges, the ability to mathematically prove the correctness of
 - **hevm**: hevm is a symbolic evaluator for the Ethereum Virtual Machine (EVM). It uses symbolic execution to evaluate existing tests and detect assertion violations, offering users flexibility in choosing how to use it.
   - [GitHub](https://github.com/ethereum/hevm)
   - [Official Documentation](https://hevm.dev)
+- **Mythril**: Mythril is a tool developed by ConsenSys for analyzing EVM bytecode. It uses symbolic execution to detect a wide range of security vulnerabilities in Solidity smart contracts.
+  - [GitHub](https://github.com/ConsenSys/mythril)
+  - [Official Documentation](https://mythril-classic.readthedocs.io/en/latest/)

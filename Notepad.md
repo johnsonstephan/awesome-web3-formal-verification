@@ -2,7 +2,6 @@
 
 ### (Symbolic Execution Based Tools
 
-- **Mythril**: Mythril is an open-source tool developed by ConsenSys for analyzing EVM bytecode. It uses symbolic execution to detect a wide range of security vulnerabilities in Solidity smart contracts, providing a reliable method to identify potential security issues. [Mythril GitHub](https://github.com/ConsenSys/mythril), [Official Documentation](https://consensys.github.io/mythril-classic/)
 - **Halmos**: Halmos is a symbolic testing tool for EVM smart contracts developed by a16z. It uses symbolic execution to identify assertion violations, offering users multiple ways to test their smart contracts. [Halmos GitHub](https://github.com/a16z/halmos), [Official Documentation](https://github.com/a16z/halmos)
 - **Kontrol**: Kontrol is a tool by Runtime Verification that combines KEVM and KEMV. It simplifies the verification process by eliminating the need to learn a new language or tool, making it accessible even for developers who aren't verification engineers. [Kontrol GitHub](https://github.com/runtimeverification/kontrol), [Official Documentation](https://docs.runtimeverification.com/kontrol/overview/readme)
 - **ERCx**: ERCx is a property testing tool for ERC tokens developed by Runtime Verification. It generates detailed reports about its analysis of the token, providing insights into the token's operation. [ERCx](https://ercx.runtimeverification.com/)
