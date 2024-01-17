@@ -74,4 +74,4 @@ Despite these challenges, the ability to mathematically prove the correctness of
   - [Documentation](https://isabelle.in.tum.de/documentation.html)
 - **Coq**: Coq is an interactive theorem prover developed by INRIA. It allows you to define programs using theorems and interactively generate machine-checked proofs of correctness.
   - [GitHub](https://github.com/coq/coq)
-  - [Documentation](https://coq.inria.fr/doc/V8.18.0/refman/coq)
+  - [Documentation](https://coq.inria.fr/doc/master/refman/)

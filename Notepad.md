@@ -1,7 +1,3 @@
-### Tools: Program Verifiers, Symbolic Execution Tools, and Others
-
-### (Symbolic Execution Based Tools
-
 ### Specification Languages for Creating Formal Specifications
 
 - [Act](https://github.com/ethereum/act): Act allows specification of storage updates, pre/post conditions and contract invariants. Its tool suite also has proof backends able to prove many properties via Coq, SMT solvers, or hevm
