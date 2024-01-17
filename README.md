@@ -58,3 +58,6 @@ Despite these challenges, the ability to mathematically prove the correctness of
 - **Halmos**: Halmos is a symbolic testing tool for EVM smart contracts developed by a16z. It uses symbolic execution to identify assertion violations.
   - [GitHub](https://github.com/a16z/halmos)
   - [Getting Started](https://github.com/a16z/halmos/blob/main/docs/getting-started.md)
+- **Kontrol**: Kontrol is a tool by Runtime Verification that combines KEVM and Foundry. It simplifies the verification process by eliminating the need to learn a new language or tool, making it accessible even for developers who aren't verification engineers.
+  - [GitHub](https://github.com/runtimeverification/kontrol)
+  - [Documentation](https://docs.runtimeverification.com/kontrol/overview/readme)
