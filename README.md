@@ -104,3 +104,15 @@ Despite these challenges, the ability to mathematically prove the correctness of
   - [Halmos Formal Verification Demo](https://a16zcrypto.com/posts/article/symbolic-testing-with-halmos-leveraging-existing-tests-for-formal-verification/#section--6)
 - **SMTChecker Tutorial, from Solidity Documentation**: This tutorial covers examples of using SMTChecker for overflow, assert, state properties, external calls, and reentrancy.
   - [SMTChecker Tutorial](https://docs.soliditylang.org/en/latest/smtchecker.html#tutorial)
+- **Symbolic execution for hevm, from Ethereum**: This tutorial demonstrates how to use hevm, a symbolic execution engine for EVM bytecode.
+  - [hevm Symbolic Execution Tutorial](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/)
+- **Symbolic Execution With ds-test, from Ethereum**: This tutorial shows how to use the symbolic execution features of hevm in its unit testing framework. It's a practical guide for how to use these features to prove smart contract properties.
+  - [hevm Tutorial with ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/)
+- **Z3 Tutorial from Philip Zucker**: This tutorial provides a comprehensive introduction to Z3, a powerful SMT solver developed by Microsoft.
+  - [Z3 Tutorial](https://colab.research.google.com/github/philzook58/z3_tutorial/blob/master/Z3%20Tutorial.ipynb)
+- **Developing Symbolic Execution Tools for EVM Using Z3**: This exercise aims to familiarize you with the details of symbolic execution techniques by building an EVM-level symbolic execution engine using Z3 as a constraint solver. It's a hands-on opportunity to gain experience with symbolic execution and Z3.
+  - [Z3 Exercise in Symbolic Execution Tooling Development](https://github.com/WilfredTA/formal-methods-curriculum/blob/master/courses/2_Approaches_Modeling_Verification/exercises/1_Symbolic_Execution/exercise_2.md)
+- **EVM Symbolic Execution from Will Berman**: This document describes a project to add symbolic execution to a rust-based implementation of the EVM.
+  - [EVM Symbolic Execution](https://github.com/williamberman/evm-symbolic-execution/blob/master/EVM%20Symbolic%20Execution.ipynb)
+- **Runtime Verification Brings Formal Verification to Algorand**: In this tutorial, you'll examine an Algorand smart contract, which implements a Vault for K Coins. Users can interact with the Vault to mint K Coins in exchange for their Algos and to burn their K Coins to redeem the Algos. KAVM is used to formally verify that the mint and burn methods of the KCoint Vault work as expected.
+  - [Algorand Formal Verification Tutorial](https://runtimeverification.com/blog/runtime-verification-brings-formal-verification-to-algorand)

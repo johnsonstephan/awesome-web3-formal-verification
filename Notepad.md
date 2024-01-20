@@ -29,27 +29,8 @@
 
 **Others**
 
-1. **Symbolic Execution With ds-test, from Ethereum**: This tutorial shows how to use the symbolic execution features of the latest release of hevm in its unit testing framework. It's a practical guide for developers looking to use these new features to prove properties of their smart contracts. [Symbolic Execution Tutorial](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/)
-
-2. **Exercise 2. Developing Symbolic Execution Tools for EVM Using Z3**: This exercise aims to familiarize you with the details of symbolic execution techniques by building an EVM-level symbolic execution engine using Z3 as a constraint solver. It's a hands-on opportunity to gain experience with symbolic execution and Z3. [Exercise 2](https://github.com/WilfredTA/formal-methods-curriculum/blob/master/courses/2_Approaches_Modeling_Verification/exercises/1_Symbolic_Execution/exercise_2.md)
-
-3. **Z3 Tutorial from Philip Zucker**: This tutorial provides a comprehensive introduction to Z3, a powerful SMT solver developed by Microsoft. It's a valuable resource for anyone looking to use Z3 for formal verification of their smart contracts. [Z3 Tutorial](https://colab.research.google.com/github/philzook58/z3_tutorial/blob/master/Z3%20Tutorial.ipynb)
-
-4. **Symbolic execution for hevm from Ethereum**: This tutorial demonstrates how to use the new capabilities of hevm, a symbolic execution engine for EVM bytecode. It's a useful guide for developers looking to use hevm for formal verification of their smart contracts. [Symbolic Execution Tutorial](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/)
-
-5. **EVM Symbolic Execution from Will Berman**: This document describes a project to add symbolic execution to a rust-based implementation of the EVM. It's a useful resource for developers looking to implement symbolic execution in their EVM implementations. [EVM Symbolic Execution](https://github.com/williamberman/evm-symbolic-execution/blob/master/EVM%20Symbolic%20Execution.ipynb)
-
-6. **Runtime Verification Brings Formal Verification to Algorand**: This blog post announces the public beta of KAVM, the formal semantics of the Algorand Virtual Machine built with the K framework. It's a useful resource for Algorand developers looking to formally verify their smart contracts. [Runtime Verification Announcement](https://runtimeverification.com/blog/runtime-verification-brings-formal-verification-to-algorand)
-
 7. **How to use Manticore to Find Bugs in Smart Contracts**: This tutorial shows how to use Manticore, a symbolic execution tool, to automatically find bugs in smart contracts. It's a practical guide for developers looking to improve the security of their smart contracts. [Manticore```
 
-[Symbolic Execution With ds-test, from Ethereum](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/) The latest release of hevm incorporates the recently introduced symbolic execution features into its unit testing framework. This lets smart contract developers formulate and prove properties in Solidity using the dapp development framework. Formally verifying properties should now be no harder than writing a property based test. In fact, it uses almost the exact same syntax. In this tutorial we will show how to use these new features to prove properties of your smart contracts.
-[Exercise 2. Developing Symbolic Execution Tools for EVM Using Z3](https://github.com/WilfredTA/formal-methods-curriculum/blob/master/courses/2_Approaches_Modeling_Verification/exercises/1_Symbolic_Execution/exercise_2.md) The goal of this exercise is to familiarize yourself with the details of symbolic execution techniques. In contrast to Exercise 1 where we have utilized the API of an existing symbolic execution tool, this exercise is focused on building our our EVM-level symbolic execution engine using Z3 as a constraint solver
-[Z3 Tutorial from Philip Zucker](https://colab.research.google.com/github/philzook58/z3_tutorial/blob/master/Z3%20Tutorial.ipynb)
-
-[Symbolic execution for hevm from Ethereum](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/) In this tutorial we will show how to use the new capabilities of hevm, and discuss some of its unique features as a symbolic execution engine. The latest release of hevm introduces symbolic execution features which can be used for checking smart contracts for correctness, step through the execution space of live contracts, or prove equivalence between them.
-
-[EVM Symbolic Execution from Will Berman](https://github.com/williamberman/evm-symbolic-execution/blob/master/EVM%20Symbolic%20Execution.ipynb) Our goal is to add symbolic execution to a rust based implementation of the EVM
 [Runtime Verification Brings Formal Verification to Algorand](https://runtimeverification.com/blog/runtime-verification-brings-formal-verification-to-algorand) We are happy to announce the public beta of KAVM — the formal semantics of the Algorand Virtual Machine built with the K framework! By building KAVM, we want to make it easier for Algorand developers to formally specify and verify smart contracts. In this tutorial, we will look at an Algorand smart contract implemented in PyTeal, which implements a Vault for K Coins. Users can interact with the Vault to mint K Coins in exchange for their Algos and to burn their K Coins to redeem the Algos. We will use KAVM to formally verify that the mint and burn methods of the KCoint Vault work as expected.
 [How to use Manticore to Find Bugs in Smart Contracts](https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/) The aim of this tutorial is to show how to use Manticore to automatically find bugs in smart contracts.
 [Exercise 1. Practical Symbolic Execution using Manticore](https://github.com/WilfredTA/formal-methods-curriculum/blob/master/courses/2_Approaches_Modeling_Verification/exercises/1_Symbolic_Execution/exercise_1.md) The purpose of this exercise is to equip you with hands-on experience of applying existing symbolic execution tools to analyze smart contracts. The exercise is based on Manticore—a symbolic execution engine developed in Python by Trail of Bits. It is also inspired by the Manticore's own tutorial
@@ -226,3 +207,5 @@ https://twitter.com/zachobront/status/1679540903030013952
 Section 11: Formal Verification & Symbolic Execution | the video is pending release
 
 - https://github.com/Cyfrin/security-and-auditing-full-course-s23?tab=readme-ov-file#section-11-formal-verification--symbolic-execution
+
+add: Solidity Summit
