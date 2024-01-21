@@ -29,35 +29,6 @@
 
 **Others**
 
-3. **Formal verification of smart contracts**: This Ethereum documentation provides a comprehensive overview of formal verification of smart contracts. It covers topics like formal models, formal specifications, types of formal specifications for smart contracts, techniques for formal verification of smart contracts, and why use formal verification for smart contracts. [Formal Verification Documentation](https://ethereum.org/en/developers/docs/smart-contracts/formal-verification)
-
-4. **Formal Verification of Smart Contracts**: This article discusses the process of evaluating the correctness of a contract based on formal specifications. It highlights the importance of formal verification in assessing if the code does what is intended, and how formal verification uses formal methods for specifying, designing, and verifying programs. [Article](https://blog.quillaudits.com/trending/testing-and-formal-verification/)
-
-### Articles
-
-[How Formal Verification of Smart Contracts Works](https://runtimeverification.com/blog/how-formal-verification-of-smart-contracts-works) In this post, we'll describe – in general terms – the process of verifying a smart contract.
-[Formal Verification of Smart Contracts](https://ethereum.org/en/developers/docs/smart-contracts/formal-verification/)
-[Formal Verification 101 for Blockchain Systems and Smart Contracts](https://runtimeverification.com/blog/formal-verification-101-for-blockchain-systems-and-smart-contracts) In this first article, we hope to provide a generalized and gentle introduction to formal verification (without specific reference to the blockchain or smart contracts) and why we need it
-[Formal Verification & Symbolic Execution | The Security Silver Bullet?](https://patrickalphac.medium.com/formal-verification-symbolic-execution-the-security-silver-bullet-38e0ac9072eb) We look at formal verification & symbolic execution with two Trail of Bits Web3 security team members. Additionally, we review the value these techniques bring and compare them to other tools
-[What Is Formal Verification of Smart Contracts?](https://academy.binance.com/en/articles/what-is-formal-verification-of-smart-contracts)
-[Formal Verification in Web3 Security Testing](https://df3ndr.com/Book/2/11/8-formal_verification.html#formal-verification-in-web3-security-testing)
-[Testing and Formal Verification for Web3 Smart Contract Security](https://blog.quillaudits.com/trending/testing-and-formal-verification/)
-[A Guide to Formal Verification of Smart Contracts, Halborn](https://www.halborn.com/blog/post/a-guide-to-formal-verification-of-smart-contracts)
-[What is Formal Verification in Smart Contract Auditing?](https://www.certik.com/resources/blog/3UDUMVAMia8ZibM7EmPf9f-what-is-formal-verification?ref=nodereal.ghost.io)
-[End-to-End Formal Verification of Ethereum 2.0 Deposit Smart Contract](https://runtimeverification.com/blog/ end-to-end-formal-verification-of-ethereum-2-0-deposit-smart-contract)
-[Formal Verification helps finding insolvency bugs — Balancer V2 Bug Report](https://medium.com/certora/formal-verification-helps-finding-insolvency-bugs-balancer-v2-bug-report-1f53ee7dd4d0)
-[Formally Verifying the World's Most Popular Smart Contract](https://www.zellic.io/blog/formal-verification-weth/) In this blog post, we prove critical safety guarantees and invariants within the WETH contract. We do so by leveraging Z3, a battle-tested SMT solver
-[SMTChecker and Formal Verification, from Solidity Documentation](https://docs.soliditylang.org/en/latest/smtchecker.html)
-[Part I, Symbolic Execution: Everything You Wanted to Know About Symbolic Execution for Ethereum Smart Contracts (But Were Afraid to Ask)](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
-[Part II, Symbolic Execution: The Easy Way To Quit (Concrete) Testing](https://hackmd.io/@SaferMaker/EVM-Sym-Test)
-[When Invariants Aren’t: DAI’s Certora Surprise](https://hackmd.io/@SaferMaker/DAICertoraSurprise)
-[My introduction to Z3 and solving satisfiability problems](https://infosecadalid.com/2021/08/27/my-introduction-to-z3-and-solving-satisfiability-problems/)
-[Formal Verification of ERC-20 Tokens](https://www.certik.com/resources/blog/6nL1ogDyekFC7nfCt9n0LR-formal-verification-of-erc-20-tokens-part-one)
-[DeepSEA: Advanced Web3 Formal Verification of a Smart Contract Compiler](https://www.certik.com/resources/blog/54rMfDcB9KAF5PS4G9kiy0-deepsea-advanced-web3-formal-verification-of-a-smart-contract-compiler)
-[Symbolic testing with Halmos: Leveraging existing tests for formal verification](https://a16zcrypto.com/posts/article/symbolic-testing-with-halmos-leveraging-existing-tests-for-formal-verification/)
-[SMTChecker, Remix & Dapptools from Ethereum](https://fv.ethereum.org/2021/12/01/smtchecker-dapptools/)
-[Automated Synthesis of External Unknown Functions from Ethereum](https://fv.ethereum.org/2021/01/18/smtchecker-and-synthesis-of-external-functions/) The SMTChecker, a formal verification module built-in the Solidity compiler, received a lot of improvements in 2020. Many improvements are related to Solidity’s language features, such as structs, ABI, hash and math functions, and other important features that were unsupported. When running the tool, the user now has more control and is able to set a timeout per query and choose engines separately between BMC and CHC. The CHC engine encodes Solidity code as Constrained Horn Clauses and is often able to handle loops and contract invariants. The internals of the CHC engine will be detailed in an upcoming series of posts. CHC has been extended to analyze external calls to unknown code and report counterexamples including transaction traces, which are the focus of this post.
-
 ### YouTube Videos
 
 **Certora**
