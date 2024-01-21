@@ -99,82 +99,82 @@ Despite these challenges, the ability to mathematically prove the correctness of
 
 ## 👨🏾‍💻 Exercises, Tutorials, and Examples
 
-- **Examples for Certora, Halmos, and Kontrol from Cyfrin**: This GitHub repository provides examples demonstrating how to use Certora, Halmos, and Kontrol for formal verification of smart contracts. It's a great resource for understanding how to apply these tools in practice.
+- **Examples for Certora, Halmos, and Kontrol from Cyfrin**: This GitHub repository provides examples demonstrating how to use three different tools for formal verification of smart contracts. It's a great resource for understanding how to apply these tools in practice.
   - [Repository with Example Test Suites](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/test/invariant-break/formal-verification)
-- **Symbolic Execution Tutorial with Manticore, Mythril, hevm, and EthBMC**: This document provides a comprehensive overview of how to use symbolic execution tools. It covers how these tools can be used to verify properties of smart contracts.
+- **Symbolic Execution Tutorial with Manticore, Mythril, hevm, and EthBMC**: This document provides a comprehensive overview of how to use four different symbolic execution tools. It covers how these tools can be used to verify properties of smart contracts.
   - [Symbolic Execution Tutorial](https://hackmd.io/@SaferMaker/EVM-Sym-Exec#What-can-they-do)
 - **Halmos Demo, Formal verification of ERC721A**: This article shows how to use Halmos to symbolically test and formally verify ERC721A, a highly gas-optimized implementation of the ERC721 standard. It's a practical demonstration of how to use Halmos for formal verification.
   - [Halmos Formal Verification Demo](https://a16zcrypto.com/posts/article/symbolic-testing-with-halmos-leveraging-existing-tests-for-formal-verification/#section--6)
-- **SMTChecker Tutorial, from Solidity Documentation**: This tutorial covers examples of using SMTChecker for overflow, assert, state properties, external calls, and reentrancy.
+- **SMTChecker Tutorial, from Solidity Documentation**: This tutorial shares examples of using SMTChecker for overflow, assert, state properties, external calls, and reentrancy.
   - [SMTChecker Tutorial](https://docs.soliditylang.org/en/latest/smtchecker.html#tutorial)
 - **Symbolic execution for hevm, from Ethereum**: This tutorial demonstrates how to use hevm, a symbolic execution engine for EVM bytecode.
   - [hevm Symbolic Execution Tutorial](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/)
-- **Symbolic Execution With ds-test, from Ethereum**: This tutorial shows how to use the symbolic execution features of hevm in its unit testing framework. It's a practical guide for how to use these features to prove smart contract properties.
+- **Symbolic Execution With ds-test, from Ethereum**: This tutorial shows how to use the symbolic execution features of hevm in its unit testing framework.
   - [hevm Tutorial with ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/)
 - **Z3 Tutorial from Philip Zucker**: This tutorial provides a comprehensive introduction to Z3, a powerful SMT solver developed by Microsoft.
   - [Z3 Comprehensive Tutorial](https://colab.research.google.com/github/philzook58/z3_tutorial/blob/master/Z3%20Tutorial.ipynb)
-- **Developing Symbolic Execution Tools for EVM Using Z3**: This exercise aims to familiarize you with the details of symbolic execution techniques by building an EVM-level symbolic execution engine using Z3 as a constraint solver. It's a hands-on opportunity to gain experience with symbolic execution and Z3.
+- **Developing Symbolic Execution Tools for EVM Using Z3**: This exercise aims to familiarize you with the details of symbolic execution techniques by building an EVM-level symbolic execution engine using Z3 as a constraint solver.
   - [Z3 Exercise in Symbolic Execution Tooling Development](https://github.com/WilfredTA/formal-methods-curriculum/blob/master/courses/2_Approaches_Modeling_Verification/exercises/1_Symbolic_Execution/exercise_2.md)
-- **EVM Symbolic Execution from Will Berman**: This document describes a project to add symbolic execution to a rust-based implementation of the EVM.
+- **EVM Symbolic Execution from Will Berman**: This is a project which demonstrates how to add symbolic execution to a rust-based implementation of the EVM.
   - [EVM Symbolic Execution](https://github.com/williamberman/evm-symbolic-execution/blob/master/EVM%20Symbolic%20Execution.ipynb)
-- **Runtime Verification Brings Formal Verification to Algorand**: In this tutorial, you'll examine an Algorand smart contract, which implements a Vault for K Coins. Users can interact with the Vault to mint K Coins in exchange for their Algos and to burn their K Coins to redeem the Algos. KAVM is used to formally verify that the mint and burn methods of the KCoint Vault work as expected.
-  - [Algorand Formal Verification Tutorial](https://runtimeverification.com/blog/runtime-verification-brings-formal-verification-to-algorand)
 - **How to use Manticore to Find Bugs in Smart Contract, from Ethereum**: This tutorial shows how to use Manticore, a symbolic execution tool, to automatically find bugs in smart contracts.
-- [Manticore Tutorial](https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/)
-- **Practical Symbolic Execution using Manticore**: This exercise equips you with hands-on experience of applying existing symbolic execution tools to analyze smart contracts.
-  - [Manticore Exercise](https://github.com/WilfredTA/formal-methods-curriculum/blob/master/courses/2_Approaches_Modeling_Verification/exercises/1_Symbolic_Execution/exercise_1.md)
+  - [Manticore Tutorial](https://ethereum.org/en/developers/tutorials/how-to-use-manticore-to-find-smart-contract-bugs/)
+- **Practical Symbolic Execution using Manticore**: This exercise equips you with hands-on experience of applying existing symbolic execution tools to analyze smart contracts with Manticore.
+  - [Manticore Exercise](https://github.com/WilfredTA/formal-methods-curriculum/blob/master/courses/2_Approaches_Modeling_Verification/exercises/1_Symbolic_Execution/exercise_1.ipynb)
 - **Course: Formal Methods for DeFi Developers**: This is a formal methods training program with an emphasis on blockchain and DeFi. It is designed to be a comprehensive resource to onboard blockchain developers to formal methods research and development.
   - [Formal Methods Training Course](https://github.com/WilfredTA/formal-methods-curriculum/)
+- **Runtime Verification Brings Formal Verification to Algorand**: This tutorial examines an Algorand smart contract, which implements a Vault for K Coins. Users can interact with the Vault to mint K Coins in exchange for their Algos and to burn their K Coins to redeem the Algos. KAVM is used to formally verify that the mint and burn methods of the KCoint Vault work as expected.
+  - [Algorand Formal Verification Tutorial with KAVM](https://runtimeverification.com/blog/runtime-verification-brings-formal-verification-to-algorand)
 
 ## 📝 Articles
 
-- **Formal Verification of Smart Contracts**: This Ethereum documentation provides a comprehensive overview of formal verification of smart contracts. It covers topics like formal models, formal specifications, types of formal specifications for smart contracts, techniques for formal verification of smart contracts, and why use formal verification for smart contracts.
-  - [Formal Verification Documentation](https://ethereum.org/en/developers/docs/smart-contracts/formal-verification)
-- **What Is Formal Verification of Smart Contracts?**: This article discusses what formal verification is and why it's important for smart contracts.
-  - [What Is Formal Verification?](https://academy.binance.com/en/articles/what-is-formal-verification-of-smart-contracts)
+- **Formal Verification of Smart Contracts**: This Ethereum documentation provides a comprehensive overview of formal verification of smart contracts. It covers topics like formal models, specifications, techniques and why use formal verification for smart contracts.
+  - [Formal Verification Documentation from Ethereum](https://ethereum.org/en/developers/docs/smart-contracts/formal-verification)
+- **What Is Formal Verification of Smart Contracts?**: This article discusses what formal verification is, including how it works, its importance, and the manual auditing versus formal verification process.
+  - [What Is Formal Verification? from Binance](https://academy.binance.com/en/articles/what-is-formal-verification-of-smart-contracts)
 - **Formal Verification 101 for Blockchain Systems and Smart Contracts**: This article provides a gentle introduction to formal verification and its relevance to blockchain systems and smart contracts.
-  - [Introduction to Formal Verification](https://runtimeverification.com/blog/formal-verification-101-for-blockchain-systems-and-smart-contracts)
-- **A Guide to Formal Verification of Smart Contracts, Halborn**: This guide provides a comprehensive overview of formal verification of smart contracts. It's a valuable resource for developers looking to understand formal verification.
+  - [Introduction to Formal Verification from Runtime Verification](https://runtimeverification.com/blog/formal-verification-101-for-blockchain-systems-and-smart-contracts)
+- **Formal Verification & Symbolic Execution | The Security Silver Bullet?**: This article explores the role of formal verification and symbolic execution in securing Web3 applications. It provides insights into the benefits these techniques bring and compares them to other tools.
+  - [Security Silver Bullet Article](https://patrickalphac.medium.com/formal-verification-symbolic-execution-the-security-silver-bullet-38e0ac9072eb)
+- **A Guide to Formal Verification of Smart Contracts from Halborn**: This guide provides an overview of formal verification of smart contracts from the process to considerations.
   - [Guide to Formal Verification](https://www.halborn.com/blog/post/a-guide-to-formal-verification-of-smart-contracts)
-- **Understanding Formal Verification**: This blog post provides a deep dive into the concept of formal verification, explaining how it uses mathematical methods to determine whether a smart contract adheres to its specified requirements.
-  - [Deep Dive into Formal Verification](https://www.unvest.io/blog/smart-contract-formal-verification-a-deep-dive-into-tools-and-methodologies-ensuring-contract-correctness)
-- **Formal Verification in Web3 Security Testing**: This article discusses the role of formal verification in web3 security testing.
+- **Understanding Formal Verification**: This blog post provides highlights regarding the concept of formal verification, explaining how it uses mathematical methods to determine whether a smart contract adheres to its specified requirements.
+  - [A Summary of Formal Verification](https://www.unvest.io/blog/smart-contract-formal-verification-a-deep-dive-into-tools-and-methodologies-ensuring-contract-correctness)
+- **Formal Verification in Web3 Security Testing**: This section of a larger Web3 Security handbook discusses the role of formal verification in security testing.
   - [Formal Verification in Web3 Security Testing](https://df3ndr.com/Book/2/11/8-formal_verification.html#formal-verification-in-web3-security-testing)
 - **Testing and Formal Verification for Web3 Smart Contract Security**: This article discusses the process of evaluating the correctness of a contract based on formal specifications. It highlights the importance of formal verification in assessing if the code does what is intended, and how formal verification uses formal methods for specifying, designing, and verifying programs.
   - [Testing and Formal Verification](https://blog.quillaudits.com/trending/testing-and-formal-verification/)
-- **What is Formal Verification in Smart Contract Auditing?**: This article discusses what formal verification is and how it's used in smart contract auditing. It's a useful resource for developers interested in auditing their smart contracts.
+- **What is Formal Verification in Smart Contract Auditing?**: This article discusses what formal verification is and showcases brief sample code.
   - [What is Formal Verification in Smart Contract Auditing?](https://www.certik.com/resources/blog/3UDUMVAMia8ZibM7EmPf9f-what-is-formal-verification)
-- **Formal Verification & Symbolic Execution | The Security Silver Bullet?**: This article explores the role of formal verification and symbolic execution in securing Web3 applications. It provides insights into the benefits these techniques bring and compares them to other tools.
-  - [Security Silver Bullet Article](https://patrickalphac.medium.com/formal-verification-symbolic-execution-the-security-silver-bullet-38e0ac9072eb)
-- **Comprehensive Process of Smart Contract Verification**: This blog post provides a detailed description of the process of verifying a smart contract.
+- **How Formal Verification of Smart Contracts Works**: This blog post provides a detailed description of the process of verifying a smart contract with several useful diagrams.
   - [Comprehensive Process of Smart Contract Verification](https://runtimeverification.com/blog/how-formal-verification-of-smart-contracts-works)
-- **Securing Transactions with Ethereum 2.0 Deposit Smart Contract**: This article provides an end-to-end walkthrough of the formal verification process for the Ethereum 2.0 deposit smart contract.
+- **End-to-End Formal Verification of Ethereum 2.0 Deposit Smart Contract**: This article provides a walkthrough of the formal verification process for the Ethereum 2.0 deposit smart contract.
   - [Securing Transactions with Ethereum 2.0 Deposit Smart Contract](https://runtimeverification.com/blog/end-to-end-formal-verification-of-ethereum-2-0-deposit-smart-contract)
-- **Utilizing Formal Verification for Bug Identification**: This article discusses how formal verification was utilized to identify bugs in the Balancer V2 smart contract.
+- **Formal Verification helps finding insolvency bugs — Balancer V2 Bug Report**: This article discusses how formal verification was utilized to identify bugs in the Balancer V2 smart contract.
   - [Utilizing Formal Verification for Bug Identification](https://medium.com/certora/formal-verification-helps-finding-insolvency-bugs-balancer-v2-bug-report-1f53ee7dd4d0)
-- **Proving Safety Guarantees for Popular Smart Contracts**: This blog post demonstrates how formal verification can be used to prove safety guarantees and invariants within the WETH contract.
-  - [Proving Safety Guarantees for Popular Smart Contracts](https://www.zellic.io/blog/formal-verification-weth/)
-- **Advanced Formal Verification of a Smart Contract Compiler**: This article discusses the advanced formal verification of a smart contract compiler using the DeepSEA methodology.
+- **Formally Verifying the World's Most Popular Smart Contract**: This blog post demonstrates how formal verification can be used to prove safety guarantees and invariants within the WETH contract.
+  - [Proving WETH with Z3](https://www.zellic.io/blog/formal-verification-weth/)
+- **DeepSEA: Advanced Web3 Formal Verification of a Smart Contract Compiler**: This article discusses the advanced formal verification of a smart contract compiler using the DeepSEA methodology.
   - [Advanced Formal Verification of a Smart Contract Compiler](https://www.certik.com/resources/blog/54rMfDcB9KAF5PS4G9kiy0-deepsea-advanced-web3-formal-verification-of-a-smart-contract-compiler)
-- **Ethereum Formal Verification Tools: SMTChecker, Remix, and Dapptools**: This resource provides a deeper understanding of the use of SMTChecker, Remix, and Dapptools in Ethereum for formal verification.
+- **SMTChecker, Remix & Dapptools**: This resource provides a deeper understanding of the use of SMTChecker, Remix, and Dapptools in Ethereum for formal verification.
   - [Ethereum Formal Verification Tools: SMTChecker, Remix, and Dapptools](https://fv.ethereum.org/2021/12/01/smtchecker-dapptools/)
-- **SMTChecker and Formal Verification**: This article provides a detailed analysis of SMTChecker, a formal verification tool embedded in the Solidity compiler.
+- **SMTChecker and Formal Verification**: This section of the Solidity documentation provides a detailed understanding of SMTChecker, a formal verification tool embedded in the Solidity compiler.
   - [Solidity Documentation: SMTChecker and Formal Verification](https://docs.soliditylang.org/en/latest/smtchecker.html)
-- **Synthesizing External Unknown Functions from Ethereum with SMTChecker**: This article discusses the process of synthesizing external unknown functions from Ethereum using SMTChecker, providing a practical approach to handling such functions.
-  - [Synthesizing External Unknown Functions from Ethereum with SMTChecker](https://fv.ethereum.org/2021/01/18/smtchecker-and-synthesis-of-external-functions/)
-- **Symbolic Execution: An Overview of Ethereum Smart Contracts**: This article serves as a comprehensive guide to understanding symbolic execution.
-  - [Symbolic Execution: An Overview of Ethereum Smart Contracts](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
-- **Quitting Concrete Testing: A Simplified Approach to Symbolic Execution**: The second part of this series further simplifies the concept of symbolic execution, making it more accessible to readers.
-  - [Quitting Concrete Testing: A Simplified Approach to Symbolic Execution](https://hackmd.io/@SaferMaker/EVM-Sym-Test)
-- **DAI’s Certora Surprise: Unexpected Findings in Invariant Analysis**: This piece highlights the unexpected results obtained from Certora's formal verification of the DAI stablecoin, providing valuable insights into invariant analysis.
-  - [DAI’s Certora Surprise: Unexpected Findings in Invariant Analysis](https://hackmd.io/@SaferMaker/DAICertoraSurprise)
-- **ERC-20 Token Formal Verification**: This piece delves into the formal verification process for ERC-20 tokens, a widely adopted standard for tokens on the Ethereum blockchain.
+- **Automated Synthesis of External Unknown Functions**: This article discusses the process of synthesizing external unknown functions from Ethereum using SMTChecker, providing a practical approach to handling such functions.
+  - [Synthesizing External Unknown Functions with SMTChecker](https://fv.ethereum.org/2021/01/18/smtchecker-and-synthesis-of-external-functions/)
+- **Everything You Wanted to Know About Symbolic Execution for Ethereum Smart Contracts (But Were Afraid to Ask)**: This first part of a two-part article serves as a comprehensive guide to understanding symbolic execution. This section is focused on analysis, with the next focused on testing.
+  - [Symbolic Execution: An Overview](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
+- **The Easy Way To Quit (Concrete) Testing**: This second part of a two-part article serves as a comprehensive guide to understanding symbolic execution. This section is focused on testing, with the previous focused on analysis.
+  - [A Simplified Approach to Symbolic Execution](https://hackmd.io/@SaferMaker/EVM-Sym-Test)
+- **When Invariants Aren’t: DAI’s Certora Surprise**: This piece highlights the unexpected results obtained from Certora's formal verification of the DAI stablecoin, providing valuable insights into invariant analysis.
+  - [Unexpected Findings in DAI's Invariant Analysis](https://hackmd.io/@SaferMaker/DAICertoraSurprise)
+- **Formal Verification of ERC-20 Tokens**: This piece delves into the formal verification process for ERC-20 tokens, a widely adopted standard for tokens on the Ethereum blockchain.
   - [ERC-20 Token Formal Verification](https://www.certik.com/resources/blog/6nL1ogDyekFC7nfCt9n0LR-formal-verification-of-erc-20-tokens-part-one)
-- **Z3 Theorem Prover: Introduction and Satisfiability Problems**: This resource gives a beginner-friendly introduction to Z3, a powerful theorem prover, and demonstrates its utility in resolving satisfiability problems.
+- **A Introduction to Z3 and Solving Satisfiability Problems**: This resource gives a beginner-friendly introduction to Z3, a powerful theorem prover, and demonstrates its utility in resolving satisfiability problems.
   - [Z3 Theorem Prover: Introduction and Satisfiability Problems](https://infosecadalid.com/2021/08/27/my-introduction-to-z3-and-solving-satisfiability-problems/)
-- **Leveraging Existing Tests for Formal Verification with Halmos**: This article explores how existing tests can be utilized for formal verification using Halmos.
-  - [Leveraging Existing Tests for Formal Verification with Halmos](https://a16zcrypto.com/posts/article/symbolic-testing-with-halmos-leveraging-existing-tests-for-formal-verification/)
-- **Certora’s Formal Verification: Enhancing Smart Contract Security**: This article explores the use of Certora's formal verification techniques to boost the security of smart contracts.
+- **Symbolic testing with Halmos: Leveraging existing tests for formal verification**: This article explores how existing tests can be utilized for formal verification using Halmos.
+  - [Formal Verification Testing with Halmos](https://a16zcrypto.com/posts/article/symbolic-testing-with-halmos-leveraging-existing-tests-for-formal-verification/)
+- **Enhancing Smart Contract Security with Certora’s Formal Verification**: This article explores the use of Certora's formal verification techniques to boost the security of smart contracts.
   - [Certora’s Formal Verification: Enhancing Smart Contract Security](https://medium.com/@JohnnyTime/enhancing-smart-contract-security-with-certoras-formal-verification-34d2f15ccc83)
-- **Guiding Principles for Formal Verification of Smart Contracts**: This guide provides a thorough overview of the principles and practices involved in formal verification of Solidity smart contracts.
+- **A Guide to Formal Verification of Smart Contracts**: This guide provides a thorough overview of the principles and practices involved in formal verification of Solidity smart contracts.
   - [Guiding Principles for Formal Verification of Smart Contracts](https://www.halborn.com/blog/post/a-guide-to-formal-verification-of-smart-contracts)
