@@ -14,12 +14,15 @@ A curated list of awesome formal verification resources for Web3.
   - [🎤 Specification Languages for Creating Formal Specifications](#-specification-languages-for-creating-formal-specifications)
   - [👨🏾‍💻 Exercises, Tutorials, and Examples](#-exercises-tutorials-and-examples)
   - [📝 Articles](#-articles)
+  - [🍿 Videos](#-videos)
+  - [🚀 Contributing](#-contributing)
+  - [Share with The Community](#share-with-the-community)
 
 ## 🤔 Introduction to Formal Verification
 
 ### Definition
 
-Formal verification is a method of mathematically proving that a computer program - for example, a smart contract - functions as intended. It involves translating the code of the contract into a formal representation (such as mathematical models and logic) and then using automated tools (like theorem provers or model checkers) to verify that the specifications and properties of the contract hold true. Formal verification detects flaws in code and logic, ensuring the contract's correctness, reducing vulnerabilities, and preventing potential financial losses.
+Formal verification is a method of mathematically proving that a computer program (for example, a smart contract) functions as intended. It involves translating the code of the contract into a formal representation (such as mathematical models and logic) and then using automated tools (like theorem provers or model checkers) to verify that the specifications and properties of the contract hold true. In Web3, formal verification detects flaws in code and logic, ensuring the contract's correctness, reducing vulnerabilities, and preventing potential financial losses.
 
 <p align="center">
   <img width="55%" height="auto" src="https://www.azquotes.com/picture-quotes/quote-the-job-of-formal-methods-is-to-elucidate-the-assumptions-upon-which-formal-correctness-tony-hoare-72-10-09.jpg">
@@ -28,21 +31,23 @@ Formal verification is a method of mathematically proving that a computer progra
 ### Comparison to Other Methods
 
 - **Symbolic Execution**: Symbolic execution is a technique used within formal verification. It involves running a program with symbolic values instead of concrete inputs. It explores as many program paths as possible, checking for errors. Compared to formal verification, it does not provide a mathematical proof of correctness. Its focus is on finding bugs rather than proving their absence. It is a less comprehensive method in comparison to formal verification (but more practical in exploring complex code paths).
-- **Unit Testing**: Unit testing involves testing individual components (units) of a program to ensure they work as expected. This method is less comprehensive than formal verification but more practical and easier to implement. It's excellent for catching specific, localized bugs but doesn't address system-wide correctness. Unit testing is critical early in the development process to ensure each component functions correctly.
 - **Fuzz Testing**: Fuzz testing involves inputting random, unexpected, or invalid data (fuzz) into the system to test its robustness. It's an excellent method for finding bugs, but it's less structured and can't guarantee comprehensive coverage or correctness like formal verification. Fuzz testing is most beneficial when you want to test the resilience of a system against malformed or malicious inputs.
+- **Unit Testing**: Unit testing involves testing individual components (units) of a program to ensure they work as expected. This method is less comprehensive than formal verification but more practical and easier to implement. It's excellent for catching specific, localized bugs but doesn't address system-wide correctness. Unit testing is especially useful early in the development process to ensure each component functions correctly.
 
 ### Challenges of Formal Verification
 
-Formal verification, despite its robust approach to ensuring the correctness of computer programs like smart contracts, presents challenges and constraints including:
+Formal verification, despite its robust approach to ensuring the correctness of programs like smart contracts, presents challenges and constraints including:
 
 - **Limited Scope**: While formal verification is powerful in proving the correctness of code against its specifications, it's only as good as the specifications themselves. If the specifications are incomplete, incorrect, or ambiguous, the verification process might not identify all potential issues. Moreover, it doesn't typically account for real-world scenarios or user interactions that lie outside the specified parameters.
 - **Difficulty in Handling External Interactions**: Smart contracts often interact with external systems (like external smart contracts) and data sources. Formal verification can struggle to account for the unpredictable nature of these external interactions, potentially overlooking vulnerabilities that arise from such dynamics.
 - **Handling State Space Explosion**: Handling state space growth can be difficult as the number of states grows when exploring contracts with features like loops and recursive calls. When the state space becomes too large, exploring all possible states and transitions can become infeasible.
 - **Constraint Solving Complexities**: Particularly in Decentralized Finance (DeFi), contracts involve complex mathematical expressions, such as non-linear arithmetic, which are difficult for common solvers to handle. These complexities can impede the ability to fully verify correctness.
 
-Despite these challenges, the ability to mathematically prove the correctness of smart contracts can significantly reduce the risk of bugs and vulnerabilities, leading to safer and more reliable protocols. It is important to note that while formal verification can greatly enhance the security of Web3 solutions, it is not a silver bullet; it should be used in conjunction with other testing methods, such as unit testing, fuzz testing, and manual code reviews, to ensure more comprehensive security.
+Despite these challenges, the ability to mathematically prove the correctness of smart contracts can significantly reduce the risk of bugs and vulnerabilities, leading to safer and more reliable protocols. It is important to note that while formal verification can greatly enhance the security of Web3 protocols, it is not a silver bullet. Formal verification should be used in conjunction with other testing methods, such as unit testing, fuzz testing, and manual code reviews, to ensure more comprehensive security.
 
 ## 🔧 Tools: Program Verifiers, Symbolic Execution Tools, and Others
+
+_Utilize these tools to continue building your security toolkit._
 
 - **Certora**: Certora is a formal verification tool which utilizes automated verification and supports bounded model checking. It uses the CVL language for specifying contracts, allowing for detailed description of critical properties. Certora provides a reliable and robust toolset, continuously evolving with strong community support.
   - [GitHub](https://github.com/Certora)
@@ -85,6 +90,8 @@ Despite these challenges, the ability to mathematically prove the correctness of
 
 ## 🎤 Specification Languages for Creating Formal Specifications
 
+_Understand these languages to take your understanding to the next level with creating specs._
+
 - **Act**: Act is a tool that enables specification of storage updates, pre/post conditions, and contract invariants. It includes proof backends that can validate many properties using Coq, SMT solvers, or hevm.
   - [GitHub](https://github.com/ethereum/act)
   - [Documentation](https://ethereum.github.io/act/)
@@ -98,6 +105,8 @@ Despite these challenges, the ability to mathematically prove the correctness of
   - [Documentation](http://dafny.org/dafny/)
 
 ## 👨🏾‍💻 Exercises, Tutorials, and Examples
+
+_Continue moving along the learning curve with these insightful materials for hands-on practice._
 
 - **Examples for Certora, Halmos, and Kontrol from Cyfrin**: This GitHub repository provides examples demonstrating how to use three different tools for formal verification of smart contracts. It's a great resource for understanding how to apply these tools in practice.
   - [Repository with Example Test Suites](https://github.com/Cyfrin/sc-exploits-minimized/tree/main/test/invariant-break/formal-verification)
@@ -127,6 +136,8 @@ Despite these challenges, the ability to mathematically prove the correctness of
   - [Algorand Formal Verification Tutorial with KAVM](https://runtimeverification.com/blog/runtime-verification-brings-formal-verification-to-algorand)
 
 ## 📝 Articles
+
+_Read these articles to gain a deeper understanding of formal verification._
 
 - **Formal Verification of Smart Contracts**: This Ethereum documentation provides a comprehensive overview of formal verification of smart contracts. It covers topics like formal models, specifications, techniques and why use formal verification for smart contracts.
   - [Formal Verification Documentation from Ethereum](https://ethereum.org/en/developers/docs/smart-contracts/formal-verification)
@@ -178,3 +189,27 @@ Despite these challenges, the ability to mathematically prove the correctness of
   - [Certora’s Formal Verification: Enhancing Smart Contract Security](https://medium.com/@JohnnyTime/enhancing-smart-contract-security-with-certoras-formal-verification-34d2f15ccc83)
 - **A Guide to Formal Verification of Smart Contracts**: This guide provides a thorough overview of the principles and practices involved in formal verification of Solidity smart contracts.
   - [Guiding Principles for Formal Verification of Smart Contracts](https://www.halborn.com/blog/post/a-guide-to-formal-verification-of-smart-contracts)
+
+## 🍿 Videos
+
+_Watch these videos to learn more about formal verification in Web3._
+
+## 🚀 Contributing
+
+We welcome all contributions and are excited to welcome you aboard.
+
+> #### Have a look at the contributing docs for how to contribute.
+
+- Add new resources
+- Suggest changes to existing resources
+- Start and join a conversation in discussions
+- Give feedback
+- Spread the word
+
+## Share with The Community
+
+Please consider sharing a post about "Awesome Web3 Formal Verification" and the value it provides with others.
+
+[![Twitter Share](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://github.com/johnsonstephan/Awesome-Web3-Formal-Verification&text=Check%20out%20this%20awesome%20list%20of%20formal%20verification%20resources%20for%20web3!)
+[![Reddit Share](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://github.com/johnsonstephan/Awesome-Web3-Formal-Verification&title=Awesome%20Web3%20Formal%20Verification%20resources%20for%20security%20researchers)
+[![Hacker News](https://img.shields.io/badge/share%20on-hacker%20news-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/johnsonstephan/Awesome-Web3-Formal-Verification)

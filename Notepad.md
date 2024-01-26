@@ -31,6 +31,12 @@
 
 ### YouTube Videos
 
+## Required
+
+https://www.youtube.com/watch?v=QQbWpN76HEg
+
+Using Solidity's SMTChecker by Leonardo Alt (Devcon4) - YouTube
+
 **Certora**
 
 [What is Certora and Formal Verification - Simply Explained](https://www.youtube.com/watch?v=8ON0Vpo7zls)
