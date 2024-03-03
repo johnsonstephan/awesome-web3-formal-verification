@@ -16,7 +16,7 @@ A curated list of awesome formal verification resources for Web3.
   - [📝 Articles](#-articles)
   - [🍿 Videos](#-videos)
   - [🚀 Contributing](#-contributing)
-  - [Share with The Community](#share-with-the-community)
+  - [🫂 Share with The Community](#-share-with-the-community)
 
 ## 🤔 Introduction to Formal Verification
 
@@ -140,11 +140,11 @@ _Continue moving along the learning curve with these insightful materials for ha
 _Read these articles to gain a deeper understanding of formal verification._
 
 - **Formal Verification of Smart Contracts**: This Ethereum documentation provides a comprehensive overview of formal verification of smart contracts. It covers topics like formal models, specifications, techniques and why use formal verification for smart contracts.
-  - [Formal Verification Documentation from Ethereum](https://ethereum.org/en/developers/docs/smart-contracts/formal-verification)
+  - [Formal Verification Documentation](https://ethereum.org/en/developers/docs/smart-contracts/formal-verification)
 - **What Is Formal Verification of Smart Contracts?**: This article discusses what formal verification is, including how it works, its importance, and the manual auditing versus formal verification process.
-  - [What Is Formal Verification? from Binance](https://academy.binance.com/en/articles/what-is-formal-verification-of-smart-contracts)
+  - [What Is Formal Verification?](https://academy.binance.com/en/articles/what-is-formal-verification-of-smart-contracts)
 - **Formal Verification 101 for Blockchain Systems and Smart Contracts**: This article provides a gentle introduction to formal verification and its relevance to blockchain systems and smart contracts.
-  - [Introduction to Formal Verification from Runtime Verification](https://runtimeverification.com/blog/formal-verification-101-for-blockchain-systems-and-smart-contracts)
+  - [Introduction to Formal Verification](https://runtimeverification.com/blog/formal-verification-101-for-blockchain-systems-and-smart-contracts)
 - **Formal Verification & Symbolic Execution | The Security Silver Bullet?**: This article explores the role of formal verification and symbolic execution in securing Web3 applications. It provides insights into the benefits these techniques bring and compares them to other tools.
   - [Security Silver Bullet Article](https://patrickalphac.medium.com/formal-verification-symbolic-execution-the-security-silver-bullet-38e0ac9072eb)
 - **A Guide to Formal Verification of Smart Contracts from Halborn**: This guide provides an overview of formal verification of smart contracts from the process to considerations.
@@ -194,11 +194,18 @@ _Read these articles to gain a deeper understanding of formal verification._
 
 _Watch these videos to learn more about formal verification in Web3._
 
+- **Formal Verification of Smart Contracts and Protocols: What, Why, How (Devcon5)**: This talk explains what formal verification is in the context of smart contracts, tokens, and protocols. It explores the significance of formal verification and outlines various methodologies for its implementation.
+  - [What, Why, How - Devcon 5 Video](https://www.youtube.com/watch?v=xggtkB7w3es)
+- **Formal Verification for Fun and Profit (Playlist)**: An engaging learning journey where the Certora Prover is introduced to identify bugs in smart contracts, even without prior knowledge.
+  - [Certora Prover Fun and Profit Playlist](https://www.youtube.com/playlist?list=PLKtu7wuOMP9XHbjAevkw2nL29YMubqEFj)
+- **Formal Verification of Smart Contracts Made Easy (Devcon5)**: This hands-on workshop guides users through the process of formally verifying smart contracts. Goals include: (1) how to formally specify relevant functional requirements of Ethereum contracts, such as "the sum of deposits never exceeds the contract’s balance", and (2) how to verify these using existing analysis tools for Ethereum.
+  - [Devcon 5 Formal Verification Workshop](https://www.youtube.com/watch?v=tq5XH3JedqM)
+
 ## 🚀 Contributing
 
 We welcome all contributions and are excited to welcome you aboard.
 
-> #### Have a look at the contributing docs for how to contribute.
+> **[Have a look at the contributing docs for how to contribute](https://github.com/johnsonstephan/Awesome-Web3-Formal-Verification/blob/master/CONTRIBUTING.md).**
 
 - Add new resources
 - Suggest changes to existing resources
@@ -206,9 +213,9 @@ We welcome all contributions and are excited to welcome you aboard.
 - Give feedback
 - Spread the word
 
-## Share with The Community
+## 🫂 Share with The Community
 
-Please consider sharing a post about "Awesome Web3 Formal Verification" and the value it provides with others.
+Please consider sharing a post about "Awesome Web3 Formal Verification" and contribute to a safer Web3.
 
 [![Twitter Share](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://github.com/johnsonstephan/Awesome-Web3-Formal-Verification&text=Check%20out%20this%20awesome%20list%20of%20formal%20verification%20resources%20for%20web3!)
 [![Reddit Share](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://github.com/johnsonstephan/Awesome-Web3-Formal-Verification&title=Awesome%20Web3%20Formal%20Verification%20resources%20for%20security%20researchers)
