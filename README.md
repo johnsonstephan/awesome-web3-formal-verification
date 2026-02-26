@@ -87,6 +87,8 @@ _Utilize these tools to continue building your security toolkit._
 - **Coq**: Coq is an interactive theorem prover developed by INRIA. It allows you to define programs using theorems and interactively generate machine-checked proofs of correctness.
   - [GitHub](https://github.com/coq/coq)
   - [Documentation](https://coq.inria.fr/doc/master/refman/)
+- **Verity**: Verity is a Lean 4 framework for specifying smart contracts, proving properties, and compiling to EVM bytecode.
+  - [GitHub](https://github.com/th0rgal/verity)
 
 ## 🎤 Specification Languages for Creating Formal Specifications
 
