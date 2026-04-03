@@ -106,6 +106,10 @@ _Understand these languages to take your understanding to the next level with cr
 
 ## 👨🏾‍💻 Exercises, Tutorials, and Examples
 
+### Real-World Formal Verification Examples
+
+- [SuiBets Formal Verification](https://suibets.com/formal-verification.html) - 13 security properties formally verified for a decentralized sports betting protocol on Sui using Sui Prover (Boogie/Z3 SMT Solver). Properties include treasury solvency, double-settlement prevention, and multisig threshold constraints. [Verified Contract](https://suiscan.xyz/mainnet/object/0x4d83eab83defa9e2488b3c525f54fc588185cfc1a906e5dada1954bf52296e76).
+
 _Continue moving along the learning curve with these insightful materials for hands-on practice._
 
 - **Examples for Certora, Halmos, and Kontrol from Cyfrin**: This GitHub repository provides examples demonstrating how to use three different tools for formal verification of smart contracts. It's a great resource for understanding how to apply these tools in practice.
